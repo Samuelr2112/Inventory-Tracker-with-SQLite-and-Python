@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Inventory</title>
+</head>
+<body>
+    <h1>Inventory</h1>
+    <a href="/add">Add Item</a>
+    <table border="1">
+        <tr><th>ID</th><th>Name</th><th>Qty</th><th>Price</th><th>Category</th><th>Action</th></tr>
+        {% for item in items %}
+        <tr>
+            <td>{{ item.id }}</td>
+            <td>{{ item.name }}</td>
+            <td>{{ item.quantity }}</td>
+            <td>${{ item.price }}</td>
+            <td>{{ item.category }}</td>
+            <td><a href="/delete/{{ item.id }}">Delete</a></td>
+        </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>
