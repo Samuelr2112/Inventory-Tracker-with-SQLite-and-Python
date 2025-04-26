@@ -41,18 +41,19 @@ Inventory Tracker with SQLite and Python/
 ```bash
 git clone https://github.com/Samuelr2112/Inventory-Tracker-with-SQLite-and-Python.git
 cd Inventory-Tracker-with-SQLite-and-Python
+```
 2. Install Flask
 Make sure Flask is installed:
-
+```
 bash
 Copy
 Edit
 pip install flask
 (You don't need to install SQLite — it comes built-in with Python.)
-
+```
 3. Start the App
 Run the Flask app:
-
+```
 bash
 Copy
 Edit
@@ -63,6 +64,7 @@ cpp
 Copy
 Edit
 http://127.0.0.1:5000
+```
 4. Use the App
 Open your browser and go to http://127.0.0.1:5000
 
