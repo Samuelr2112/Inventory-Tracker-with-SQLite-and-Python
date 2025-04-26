@@ -23,7 +23,7 @@ The project includes a working CRUD interface (Create, Read, Update, Delete), a 
 - HTML5 + CSS (Basic UI)
 
 ---
-
+```
 ## 📁 Project Structure
 Inventory Tracker with SQLite and Python/
 ├── app.py
@@ -33,13 +33,13 @@ Inventory Tracker with SQLite and Python/
 │    ├── add.html
 │    └── edit.html
 └── (optional /static for future CSS or images)
-
+```
 ---
 ## 🚀 How to Run This Project
 
 ### 1. Clone the Repository
 
-bash
+```bash
 git clone https://github.com/Samuelr2112/Inventory-Tracker-with-SQLite-and-Python.git
 cd Inventory-Tracker-with-SQLite-and-Python
 2. Install Flask
@@ -70,7 +70,7 @@ Open your browser and go to http://127.0.0.1:5000
 Add, edit, delete, and search inventory items
 
 All changes are saved in the inventory.db SQLite database
-
+```
 👨‍💻 Why I Built This
 I built this project to practice building a full CRUD web app with a lightweight backend.
 I wanted something simple but fully functional, using only Flask, SQLite, and basic HTML — no heavy frameworks.
