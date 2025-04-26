@@ -34,11 +34,6 @@ Inventory Tracker with SQLite and Python/
 │    └── edit.html
 └── (optional /static for future CSS or images)
 
-
-yaml
-Copy
-Edit
-
 ---
 ## 🚀 How to Run This Project
 
