@@ -40,11 +40,11 @@ Copy
 Edit
 
 ---
-
-## 🚀 How to Run
+## 🚀 How to Run This Project
 
 ### 1. Clone the Repository
-``bash
+
+bash
 git clone https://github.com/Samuelr2112/Inventory-Tracker-with-SQLite-and-Python.git
 cd Inventory-Tracker-with-SQLite-and-Python
 2. Install Flask
@@ -65,7 +65,7 @@ Edit
 python app.py
 The server will start at:
 
-cpp
+bash
 Copy
 Edit
 http://127.0.0.1:5000
@@ -75,22 +75,10 @@ Open your browser and go to http://127.0.0.1:5000
 Add, edit, delete, and search inventory items
 
 All changes are saved in the inventory.db SQLite database
+
 👨‍💻 Why I Built This
 I built this project to practice building a full CRUD web app with a lightweight backend.
 I wanted something simple but fully functional, using only Flask, SQLite, and basic HTML — no heavy frameworks.
 It’s easy to set up, runs locally, and doesn't require any complex installations.
 
 Feel free to explore it and test the features!
-
-🛠️ Next Possible Improvements
-Add user authentication (simple login system)
-
-Improve UI with Bootstrap or TailwindCSS
-
-Add item sorting and filtering
-
-Deploy it online using Render or Railway
-
-✨ About
-No special setup required — clone, install Flask, and run!
-
