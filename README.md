@@ -45,24 +45,17 @@ cd Inventory-Tracker-with-SQLite-and-Python
 2. Install Flask
 Make sure Flask is installed:
 ```
-bash
-Copy
-Edit
 pip install flask
 (You don't need to install SQLite — it comes built-in with Python.)
 ```
 3. Start the App
 Run the Flask app:
 ```
-bash
-Copy
-Edit
 python app.py
-The server will start at:
+```
 
-cpp
-Copy
-Edit
+The server will start at:
+```
 http://127.0.0.1:5000
 ```
 4. Use the App
@@ -71,10 +64,3 @@ Open your browser and go to http://127.0.0.1:5000
 Add, edit, delete, and search inventory items
 
 All changes are saved in the inventory.db SQLite database
-```
-👨‍💻 Why I Built This
-I built this project to practice building a full CRUD web app with a lightweight backend.
-I wanted something simple but fully functional, using only Flask, SQLite, and basic HTML — no heavy frameworks.
-It’s easy to set up, runs locally, and doesn't require any complex installations.
-
-Feel free to explore it and test the features!
