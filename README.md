@@ -38,7 +38,6 @@ Inventory Tracker with SQLite and Python/
 ## 🚀 How to Run This Project
 
 ### 1. Clone the Repository
-
 ```bash
 git clone https://github.com/Samuelr2112/Inventory-Tracker-with-SQLite-and-Python.git
 cd Inventory-Tracker-with-SQLite-and-Python
@@ -60,7 +59,7 @@ Edit
 python app.py
 The server will start at:
 
-bash
+cpp
 Copy
 Edit
 http://127.0.0.1:5000
